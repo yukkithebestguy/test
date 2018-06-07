@@ -1,0 +1,10 @@
+
+# JWT : JSON WEB TOKEN PROPERTIES
+jwt:
+  header: Authorization
+  secret: books
+  expiration: 604800
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
